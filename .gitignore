@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.vscode/
+.DS_Store
+.mypy_cache/
+*.log
+Pipfile.lock
+.pytest_cache/
+htmlcov/
+.coverage
+.ipynb_checkpoints/

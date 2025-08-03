@@ -1,0 +1,6 @@
+matplotlib
+flask
+line-bot-sdk
+python-dotenv
+pyngrok
+google-generativeai

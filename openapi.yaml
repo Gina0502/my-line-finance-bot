@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info:
+  title: LINE金融小幫手外匯API Webhook
+  version: 1.0.0
+servers:
+  - url: https://your-domain-or-ip/backend
+
+paths:
+  /callback:
+    post:
+      summary: LINE Webhook 接收事件
+      description: 接收LINE傳來的消息事件並回應
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                events:
+                  type: array
+                  items:
+                    type: object
+      responses:
+        "200":
+          description: 成功回應 OK
+        "400":
+          description: 驗證錯誤
+        "500":
+          description: 系統錯誤

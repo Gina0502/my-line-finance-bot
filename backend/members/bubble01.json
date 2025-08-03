@@ -1,0 +1,45 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "請選擇功能",
+        "weight": "bold",
+        "size": "lg"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "💱 外幣換算",
+          "text": "我要換匯"
+        },
+        "style": "primary",
+        "margin": "md"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "📚 金融小學堂",
+          "text": "我要考題"
+        },
+        "style": "primary",
+        "margin": "md"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "☺︎ 詢問AI",
+          "text": "我要問專業問題"
+        },
+        "style": "primary",
+        "margin": "md"
+      }
+    ]
+  }
+}

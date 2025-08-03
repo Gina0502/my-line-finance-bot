@@ -1,0 +1,17 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      { "type": "text", "text": "等級：%%LEVEL%%", "weight": "bold", "size": "md" },
+      { "type": "text", "text": "第 %%INDEX%% 題", "size": "sm", "color": "#AAAAAA" },
+      { "type": "text", "text": "%%QUESTION%%", "wrap": true, "margin": "lg" },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": []
+      }
+    ]
+  }
+}
